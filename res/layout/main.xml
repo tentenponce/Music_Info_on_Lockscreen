@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:gravity="center_horizontal">
+    <com.tenten.MusicControl android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	  <com.tenten.prev android:layout_marginRight="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	  <com.tenten.play android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	  <com.tenten.next android:layout_marginLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.tenten.MusicControl>
+    <com.tenten.AlbumArt android:layout_width="100dp" android:layout_height="100dp" android:scaleType="fitCenter"/>
+    <com.tenten.trackname android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="10.0px" android:paddingRight="10.0px" android:singleLine="true" android:gravity="center_horizontal" />
+</LinearLayout>
